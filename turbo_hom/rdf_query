@@ -1,0 +1,6 @@
+?X rdf:type Student
+?Y rdf:type University
+?Z rdf:type Department
+?X undergraduateDegreeFrom ?Y
+?X memberOf ?Z
+?Z subOrganizationOf ?Y

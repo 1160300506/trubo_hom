@@ -1,0 +1,9 @@
+GraduateStudent rdf:subClassOf Student
+student1 rdf:type GraduateStudent
+student1 telephone '012-345-6789'
+student1 emailAddress 'john@dept1.univ1.edu'
+student1 memberOf dept1.univ1
+student1 undergraduateDegreeFrom univ1
+dept1.univ1 rdf:type Department
+dept1.univ1 subOrganizationOf univ1
+univ1 rdf:type University
